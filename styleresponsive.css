@@ -2,16 +2,34 @@
     body {
         background-color: red;
     }
+    div.medium {
+        display:none;
+    }
+    div.large {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 768px ) {
     body {
         background-color: green;
     }
+    div.small {
+        display:none;
+    }
+    div.large {
+        display:none;
+    }
 }
 
 @media only screen and (min-width:769px) {
     body {
         background-color: blue;
+    }
+    div.small {
+        display:none;
+    }
+    div.medium {
+        display:none;
     }
 }
