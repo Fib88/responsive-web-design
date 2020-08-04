@@ -1,44 +1,44 @@
 @media only screen and (max-width: 300px) {
     body {
-        background-color: red;
-    }
-    div.medium {
-        display:none;
-    }
-    div.large {
-        display: none;
+        background-color: red;font-size: 15px
     }
     div.small {
-        font-size: 14px;
+        z-index:1;
+    }
+    div.medium {
+        z-index:2;
+    }
+    div.large {
+        z-index:3;
     }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 768px ) {
     body {
-        background-color: green;
+        background-color: green;font-size: 20px;
     }
     div.small {
-        display:none;
-    }
-    div.large {
-        display:none;
+        float:left; display:inline; width: 66%;margin: 15px;
     }
     div.medium {
-        font-size: 20px;
+        float:left; display:inline; width: 33%;margin: 15px;
+    }
+    div.large {
+        float:bottom; display:inline-grid; width: 100%;margin: 15px;
     }
 }
 
 @media only screen and (min-width:769px) {
     body {
-        background-color: blue;
+        background-color: blue;font-size:30px;
     }
     div.small {
-        display:none;
+        float:left;display:inline;width:30%;margin:15px;
     }
     div.medium {
-        display:none;
+        float:left;display:inline;width:30%;margin:15px;
     }
     div.large {
-        font-size: 30px;
+        float:left;display:inline;width:30%;margin:15px;
     }
 }
