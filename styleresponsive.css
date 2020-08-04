@@ -1,3 +1,6 @@
+/*responsive design for small,medium and large screens*/
+
+/*small screens up to 300px*/
 @media only screen and (max-width: 300px) {
     body {
         background-color: red;font-size: 15px
@@ -12,7 +15,7 @@
         z-index:3;
     }
 }
-
+/*medium sized screens ranging from 300px to 768px*/
 @media only screen and (min-width: 301px) and (max-width: 768px ) {
     body {
         background-color: green;font-size: 20px;
@@ -27,7 +30,7 @@
         float:bottom; display:inline-grid; width: 100%;margin: 15px;
     }
 }
-
+/*large screens upwards of the 768px range*/
 @media only screen and (min-width:769px) {
     body {
         background-color: blue;font-size:30px;
